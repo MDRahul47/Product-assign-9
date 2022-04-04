@@ -1,18 +1,29 @@
 .main-chart {
+    display: flex;
     text-align: center;
     margin: 20px;
+    justify-content: space-around;
 }
 
-
-
 .lineChart {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 200px;
+    width: 40%;
 }
 
 .barchart {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 200px;
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-chart {
+        display: inline-block;
+
+    }
+
+    .lineChart {
+        width: 2500px;
+    }
+
+    .barchart {
+        width: 2500px;
+    }
 }

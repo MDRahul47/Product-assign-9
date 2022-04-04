@@ -42,8 +42,8 @@ const MyBarChart = () => {
     ]
     return (
         <BarChart
-            width={800}
-            height={500}
+            width={550}
+            height={350}
             data={data}
             margin={{
                 top: 5,

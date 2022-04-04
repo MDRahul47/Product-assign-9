@@ -1,4 +1,49 @@
-.Home {
-    text-align: center;
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.details {
     font-weight: 600;
+    text-align: left;
+    width: 40%;
+
+}
+
+.recview {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.details span {
+    color: orange;
+    font-weight: 700;
+}
+
+.image {
+    width: 40%;
+}
+
+.pic {
+    width: 500px;
+    border-radius: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: inline-block;
+    }
+
+    .details {
+        width: 100%;
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+
+    .pic {
+        margin-left: 30px;
+        width: 350px;
+        border-radius: 14px;
+    }
 }
