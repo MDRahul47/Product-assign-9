@@ -1,60 +1,26 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import './Navbar.css';
-
-
-function Navbar() {
-    const [active, setActive] = useState("nav__menu");
-    const [icon, setIcon] = useState("nav__toggler");
-    const navToggle = () => {
-        if (active === "nav__menu") {
-            setActive("nav__menu nav__active");
-        } else setActive("nav__menu");
-
-        // Icon Toggler
-        if (icon === "nav__toggler") {
-            setIcon("nav__toggler toggle");
-        } else setIcon("nav__toggler");
-    };
+import "./Navbar.css";
+const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className="nav">
-            <Link to="#" className="nav__brand">
-                Rahul
-            </Link>
-            <ul className={active}>
-                <li className="nav__item">
-                    <Link to="/home" className="nav__link">
-                        HOME
-                    </Link>
-                </li>
-                <li className="nav__item">
-                    <Link to="/reviews" className="nav__link">
-                        REVIEWS
-                    </Link>
-                </li>
-                <li className="nav__item">
-                    <Link to="/dashboard" className="nav__link">
-                        DASHBOARD
-                    </Link>
-                </li>
-                <li className="nav__item">
-                    <Link to="/blogs" className="nav__link">
-                        BLOGS
-                    </Link>
-                </li>
-                <li className="nav__item">
-                    <Link to="/about" className="nav__link">
-                        ABOUT
-                    </Link>
-                </li>
-            </ul>
-            <div onClick={navToggle} className={icon}>
-                <div className="line1"></div>
-                <div className="line2"></div>
-                <div className="line3"></div>
+        <div className="Navbar">
+            <span className="nav-logo">Seller-4-You</span>
+            <div className={`nav-items ${isOpen && "open"}`}>
+                <Link to="/home">Home</Link>
+                <Link to="/reviews">Reviews</Link>
+                <Link to="/dashboard">Dashboard</Link>
+                <Link to="/blogs">Blogs</Link>
+                <Link to="/about">About</Link>
             </div>
-        </nav>
+            <div
+                className={`nav-toggle ${isOpen && "open"}`}
+                onClick={() => setIsOpen(!isOpen)}
+            >
+                <div className="bar"></div>
+            </div>
+        </div>
     );
-}
+};
 
 export default Navbar;
