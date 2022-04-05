@@ -1,5 +1,6 @@
 .Navbar {
     height: 60px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -46,6 +47,10 @@
 }
 
 @media (max-width: 700px) {
+    .Navbar {
+        width: 80%;
+    }
+
     .Navbar>.nav-items {
         position: absolute;
         top: 60px;

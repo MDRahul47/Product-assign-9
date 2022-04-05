@@ -1,0 +1,17 @@
+.photo img {
+    height: 120px;
+    width: 120px;
+    border-radius: 15px;
+}
+
+.containers {
+    height: 400px;
+    width: 300px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #353b48;
+    color: white;
+    box-shadow: 12px 12px 12px 2px #201637;
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "id": "1",
+        "name": "Ashik",
+        "img": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "rating": 5,
+        "comment": " While I made my decision to buy a Nissan Bluebird, everyone broke upon me saying it’s gonna be the worst decision in my life. But Alhamdulillah finally I never regret my decision."
+    },
+    {
+        "id": "2",
+        "name": "Tapushi Nilu",
+        "img": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+        "rating": 4.5,
+        "comment": " As a second hand car initial maintenance cost may go very high; because you may need to replace the whole engine and gear box if the car is converted to CNG earlier. CNG conversion will definitely damage this engine today or tomorrow. "
+    },
+    {
+        "id": "3",
+        "name": "MD Redowan",
+        "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "rating": 5,
+        "comment": "9-10 kmpl for octane. And 8-9 kmpl for LPG (presently I’m running with that for last 1.5 years.) This is highway mileage. Fuel consumption is higher than Toyota. In this segment only a Suzuki can beat Toyota."
+    },
+    {
+        "id": "4",
+        "name": "MD Armaan",
+        "img": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "rating": 5,
+        "comment": "Leg room/ head room can be compared with an old Alion/ Premio. But regarding comfort Bluebird will easily beat an Alion/ Premio. I’m 6’4” tall person, and inner space was the main factor for me to take decision."
+    },
+    {
+        "id": "5",
+        "name": "MD Shehab",
+        "img": "https://images.unsplash.com/photo-1556474835-b0f3ac40d4d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "rating": 2.8,
+        "comment": "It’s your car, so you have to make your own choice. Rather than depending on public opinion. But one thing is for sure; if you want to buy any car other that Toyota then you have to be very very confident on that car and you have to lover that car. Otherwise; all the people around you will puzzle you e.g. "
+    },
+    {
+        "id": "6",
+        "name": "MD Usman",
+        "img": "https://images.unsplash.com/photo-1492447166138-50c3889fccb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "rating": 4.2,
+        "comment": " In Bangladesh if you want to buy any car other than Toyota; then biggest challenge is this part. You can’t take your car anywhere/ any garage. It won’t work actually. You have to choose your workshop very very carefully. "
+    },
+    {
+        "id": "7",
+        "name": "MD Rakib",
+        "img": "https://images.unsplash.com/photo-1474293507615-951863a0f942?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "rating": 3.6,
+        "comment": "I-Works (For me Saiful Vai is the best), SpeedCare, Uttara; Vehicle Solution, Bashudhara; Multibrand, Tejgaon; Car Doctor, Kallyanpur; etc… Beside I know some Car Technician personally who are very good at maintaining non-toyota cars."
+    },
+    {
+        "id": "8",
+        "name": "MD Armaan",
+        "img": "https://images.unsplash.com/photo-1588976612067-d015cbbdb38b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "rating": 2.9,
+        "comment": "Delicate maintenance is required for cars other than Toyota. Like for Toyota if you use non-genuine parts the car will not deny it. But for other cars, you must use everything 100000% genuine parts. Even the engine coolant. "
+    },
+    {
+        "id": "9",
+        "name": "MD Ashik",
+        "img": "https://images.unsplash.com/photo-1544225917-1bf66feace19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "rating": 5,
+        "comment": "Means suppose your spark plug is making trouble, work-shop mistry are telling you that it may run another 1000-2000 km. For Toyota you may take that chances; but for non-toyota cars in BD you can never take that chances. If your car breaks down on road specially on highway then there will be no one to help you out."
+    },
+    {
+        "id": "10",
+        "name": "MD Noman",
+        "img": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "rating": 3.4,
+        "comment": " Every spares are available at ready stock in Bangladesh. Ranging from brand new one to the used (reconditioned) spares at Dholaikhal market. You will never regret finding spares.."
+    },
+    {
+        "id": "11",
+        "name": "MD Kaman",
+        "img": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "rating": 4.0,
+        "comment": "The 2021 event featured 100 collector cars from around the country. The next Las Vegas Concours will be held Oct. 22, 2022."
+    },
+    {
+        "id": "12",
+        "name": "MD Molla",
+        "img": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "rating": 4.2,
+        "comment": "It’s your car, so you have to make your own choice. Rather than depending on public opinion. But one thing is for sure; if you want to buy any car other that Toyota then you have to be very very confident on that car and you have to lover that car. "
+    }
+]
